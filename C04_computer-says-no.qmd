@@ -3,23 +3,23 @@ title: "Computer Says No: Removing Technological Barriers in Coding"
 bibliography: references.bib
 author:
   - name: Chris Cooling
-    email: author@one.com
-    affiliations: institution or company
+    email: c.cooling10@imperial.ac.uk
+    affiliations: Imperial College London
   - name: David Cutting
-    email: author@one.com
-    affiliations: institution or company
+    email: d.cutting@qub.ac.uk
+    affiliations: Queen's University Belfast
   - name: Ozan Evkaya
-    email: author@one.com
-    affiliations: institution or company
+    email: TODO?
+    affiliations: School of Mathematics, University of Edinburgh
   - name: Lucia Michelin
-    email: author@one.com
-    affiliations: institution or company
+    email: lucia.michielin@ed.ac.uk
+    affiliations: University of Edinburgh
   - name: Samuel Skipsey
-    email: author@one.com
-    affiliations: institution or company
+    email: Samuel.Skipsey@glasgow.ac.uk
+    affiliations: University of Glasgow
   - name: Lizzie Wadsworth
-    email: author@one.com
-    affiliations: institution or company
+    email: TODO?
+    affiliations: TODO
 
 keywords:
   - formats
@@ -63,7 +63,7 @@ One technique which can easily enhance setup instructions is a GIF screen record
 
 An example below shows key frames from a GIF recording of how to create a new folder and an R script, along with running a line of code, in RStudio. 
 
-![Keyframes of Example GIF of how to use RStudio](/chapters\images\C03-computer-says-no-keyframes-of-gif.png "")
+![Keyframes of Example GIF of how to use RStudio](/chapters/images/C04_computer-says-no-keyframes-of-gif.png "")
 Keyframes of Example GIF of how to use RStudio
 
 These can be embedded in any online-based tutorial, such as an HTML file or within a page written on a Virtual Learning Environment (VLE) such as Moodle, Blackboard or Canvas. For long processes, you can combine multiple GIFs with text instructions and clear headings (Step 1, Step 2...). 
@@ -109,7 +109,7 @@ Although requiring a paid subscription (a lot pricier than most other options he
 
 One disadvantage of Jupyter notebooks is that executed code is saved into memory - even if that code is then deleted. This can lead to issues trying to debug an unusual error, where the problem code *has since been deleted*. One time, a student using a Jupyter Python notebook had named a variable `str`, overwriting the built-in `str()` function. Other notebooks than Jupyter can solve this (by updating the entire notebook state on changes), but Jupyter is by far the most available solution.
 
-![Screenshot of Jupyter notebook with Python-generated scattergraph](/chapters\images\C03-computer-says-no-jupyter-notebook.png "")
+![Screenshot of Jupyter notebook with Python-generated scattergraph](/chapters/images/C04_computer-says-no-jupyter-notebook.png "")
 Screenshot of Jupyter notebook with Python-generated scattergraph
 
 ### WebR, Pyodide
@@ -120,7 +120,7 @@ The advantage of these is that you can have a worksheet which prompts a student 
 
 Both of these work with a variety of common packages such as ggplot (R) and matplotlib (Python). The quarto-live extension can also be used to generate exercises where students need to fill in the blanks in the provided code, and this can include hints and answers. 
 
-![Screenshot of a Pyodide exercise](/chapters\images\C03-computer-says-no-quatro-live-exercise.png "")
+![Screenshot of a Pyodide exercise](/chapters/images/C04_computer-says-no-quatro-live-exercise.png "")
 Screenshot of a Pyodide exercise
 
 The disadvantage is that the code a student writes is not saved anywhere - so this has to be made clear to them. It is only for temporary use. Additionally, as with the Jupyter notebooks, all executed code is saved into a temporary memory so one code block may function differently depending on which blocks were run previously. 
@@ -159,7 +159,7 @@ The benefits extend to accessibility and collaboration. Being cloud-based, these
 
 Despite these substantial benefits, several challenges persist. Pre-loaded library conflicts can arise, posing a significant hurdle compared to the more controlled, albeit time-consuming, process of manually installing each necessary library. This automated convenience could sometimes backfire, leading to intricate conflicts that are hard to resolve without comprehensive control over the server environment. Furthermore, instances of server crashes can disrupt the learning process, culminating in potentially unsaved work and progress loss.
 
-![Visual Representation of Dependencies interrelation from Xkcd.](/chapters\images\C03-computer-says-no-xkcd-dependency.png "")
+![Visual Representation of Dependencies interrelation from Xkcd.](/chapters/images/C04_computer-says-no-xkcd-dependency.png "")
 Visual Representation of Dependencies interrelation from [xkcd](https://xkcd.com/2347/).
 
 Admin permissions, or the lack thereof, can also generate challenges, particularly when obscure errors emerge that require more than just user-level access to resolve. This limitation can frustrate users, especially when the path to a solution is barricaded by restricted permissions. Cloud-hosted development platforms can present additional challenges in remote and hybrid settings. Although the computational workload is handled on external servers, these platforms still rely heavily on the user’s local machine and network stability for smooth interaction. When used concurrently with video conferencing tools required for live instruction, overall system performance may decline. The combined demands of running a browser-based coding environment, maintaining a live video stream, and often sharing screens can result in slower execution times, lag, reduced responsiveness, or even session crashes. While this issue is particularly relevant from the instructor’s perspective, it can similarly affect students, disrupting the continuity of teaching and learning.Additionally, when server-based platforms are shared over a video conference tool (as in the case of remote and hybrid teaching), the overall performance can deteriorate, leading to more frequent server crashes and prolonged running times. 

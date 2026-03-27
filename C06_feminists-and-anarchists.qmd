@@ -1,5 +1,5 @@
 ---
-title: "Anarchists and Dungeon Crawlers: co-designing programming teaching experiences"
+title: "Dungeon Crawlers and Anarchists: co-designing programming teaching experiences"
 bibliography: references.bib
 author:
   - name: Francisco Queiroz

@@ -34,7 +34,7 @@ Many students come to their first programming course or workshop with little or 
 
 If students are working on their own computers, there will be a variety of different operating systems and software configurations. This can make the provision of universally helpful instructions difficult and, in some cases, it might be difficult or impossible to install the desired tools at all. Error messages can also be difficult to decipher, particularly for novices. This can lead to students, quite reasonably, having many questions for tutors. This slows down the course, reducing what can be covered, and frustrating students who are set up and ready to go.
 
-In this chapter, we will explore some of the techniques and tools that we, as educators, have found to help solve or mitigate these problems. Examples and observations of student behaviour are derived from our experiences in the classroom, which cover a range of class sizes from 10 to over [TODO how many?] students, undergraduate foundation years to research postgraduates, across a variety of subjects from Biosciences to Physics to Computer Sciences.
+In this chapter, we will explore some of the techniques and tools that we, as educators, have found to help solve or mitigate these problems. Examples and observations of student behaviour are derived from our experiences in the classroom, which cover a range of class sizes from 10 to over 200 students, undergraduate foundation years to research postgraduates, across a variety of subjects from Biosciences to Physics to Computer Sciences.
 
 ## Clear wording, sections, and images
 

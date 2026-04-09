@@ -179,7 +179,7 @@ Each Docker has its pros and cons and quirks. Below you can find a table that su
 
 ## Installation support for different OS/devices
 
-[TODO editor suggestion: one or two sentences to transition from the previous section. The previous section offered some solutions to avoid this problem entirely, so it's a little sudden to go back now to supporting students with installing software.]
+Sometimes it may not be possible to use a cloud-based service, and learners may struggle to replicate the setup of a cloud-based system on their own for future projects. In addition, teaching students to run code and tools locally is a valuable skill and one that an educator might want to cultivate. For these reasons, we may want to support students running code and tools locally. However, learners may have different operating systems and setups, and this means supporting the installation of software across all machines can be a challenge.
 
 To effectively engage students from the beginning, having additional support for installing tools plays a crucial role. Particularly for courses with a lot of novice students, the tools that will be used in the course should be introduced to students early so they feel comfortable using them. As well as introducing tools in a workshop or lecture, asynchronous support resources (e.g. online documentation or written materials) can help troubleshoot setup issues. These resources should be easy to follow and up to date. This may involve updating them during the first couple of weeks in response to student problems and feedback.
 

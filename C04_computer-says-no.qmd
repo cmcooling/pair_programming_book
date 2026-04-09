@@ -9,7 +9,7 @@ author:
     email: d.cutting@qub.ac.uk
     affiliations: Queen's University Belfast
   - name: Ozan Evkaya
-    email: TODO?
+    email: Ozan.Evkaya@ed.ac.uk
     affiliations: School of Mathematics, University of Edinburgh
   - name: Lucia Michelin
     email: lucia.michielin@ed.ac.uk
@@ -18,8 +18,8 @@ author:
     email: Samuel.Skipsey@glasgow.ac.uk
     affiliations: University of Glasgow
   - name: Lizzie Wadsworth
-    email: TODO?
-    affiliations: TODO
+    email: L.Wadsworth@kingston.ac.uk
+    affiliations: Kingston University
 
 keywords:
   - formats

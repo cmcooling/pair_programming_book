@@ -54,11 +54,9 @@ Instructions are never clear enough. You can write detailed step-by-step instruc
 
 One technique which can easily enhance setup instructions is a GIF screen recording. This can show each step really clearly and works especially well with the younger generation, who are more used to video tutorials than they are following written instructions. 
 
-[TODO: show the actual GIF in the online book?]
+@fig-C04_RStudio_GIF_demonstration shows key frames from a GIF recording of how to create a new folder and an R script, along with running a line of code, in RStudio. 
 
-@fig-gif-keyframes shows key frames from a GIF recording of how to create a new folder and an R script, along with running a line of code, in RStudio. 
-
-![Keyframes of example GIF on how to use RStudio.](/chapters/images/C04_computer-says-no-keyframes-of-gif.png){#fig-gif-keyframes fig-alt="Four screenshots showing the RStudio interface at four different stages of completing a task."}
+![Keyframes of example GIF on how to use RStudio.](/chapters/images/C04_RStudio_GIF_demonstration.gif){#fig-C04_RStudio_GIF_demonstration fig-alt="A GIF showing the RStudio interface at four different stages of completing a task."}
 
 These can be embedded in any online-based tutorial, such as an HTML file or within a page written on a Virtual Learning Environment (VLE) such as Moodle, Blackboard or Canvas. For long processes, you can combine multiple GIFs with text instructions and clear headings (Step 1, Step 2...). 
 

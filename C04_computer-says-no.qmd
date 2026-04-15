@@ -36,7 +36,11 @@ If students are working on their own computers, there will be a variety of diffe
 
 In this chapter, we will explore some of the techniques and tools that we, as educators, have found to help solve or mitigate these problems. Examples and observations of student behaviour are derived from our experiences in the classroom, which cover a range of class sizes from 10 to over 350 students, undergraduate foundation years to research postgraduates, across a variety of subjects from Biosciences to Physics to Computer Sciences.
 
-## Clear wording, sections, and images
+## Course Material Design
+
+When designing a course, one of the first steps is to decide how to present teaching material to learners. In this section, we discuss approaches, mediums and file formats that can support student onboarding best.
+
+### Clear wording, sections, and images
 
 Programming for the first time can be a challenging experience for a student, as there is a lot to learn from the first class --- from how to log in and set up, to how to write, build, debug and execute programs. Hence, learning material will need to contain a lot of information for students to be able to follow instructions and write their first program. 
 
@@ -48,7 +52,7 @@ Programming is quite text-heavy; most instructions are written in text, and code
 
 ![Flow chart visually demonstrating the logic behind an `if`, `elif`, `else` statement in Python, generated using the open-source JavaScript-based tool [Mermaid](https://mermaid.ai/open-source/).](/chapters/images/C04_computer-says-no-flowchart.png){#fig-flowchart fig-alt="Flowchart with 2 levels. First level: 'Is a dog person?' with 'True' leading to 'Dog person' and 'False' leading to the second level: 'Is a cat person?' with 'True' leading to 'Cat person' and 'False' leading to 'Not a dog or cat person'." width=50%}
 
-## Embedded GIF screen recordings
+### Embedded GIF screen recordings
 
 Instructions are never clear enough. You can write detailed step-by-step instructions for how to get set up, and also start a class with a live demonstration of exactly which buttons to click. You may find, however, when you start to walk around the class, that many students in an introduction to programming session have yet to run their first line of code. They may have arrived late, or had technical issues with the first computer they logged into, or missed a step in the demonstration, or for any other reason not been able to follow the instructions.
 
@@ -64,7 +68,7 @@ To make them, there are many different screen-recording software programs you ca
 
 Using these GIFs, students can be directed to the worksheet and most will be able to follow the instructions and set themselves up - freeing up more time for practical questions on the programming language. The GIFs also become a resource they can return to, so instructions do not need to be repeated in every class. 
 
-## Supplementary materials
+### Supplementary materials
 
 Some modules can require pre-existing skills in tools such as data visualisation and interpretation, and learning these skills may not be a learning outcome of the module. Instead, these skills may be assumed prior knowledge, which can cause problems for students who do not feel comfortable with these skills. For cohorts with diverse backgrounds, such as postgraduate students, extra care is needed to support novice learners. From that perspective, having clear and open communications with learners to understand their background is a good starting point. To support their learning process effectively, supplementary learning material such as a deck of slides, glossaries and cheat sheets can be provided. These can be referenced by novice learners and can help them keep up without slowing the progress of more experienced learners.
 
@@ -76,7 +80,7 @@ Learners who lack some of the assumed skills may still have to work harder to co
 
 One downside of the inclusion of supplementary materials is the tendency for scope creep of the course. It can be easy to take a 2 hour course and turn it into a 5 hour course with a much larger amount of content. Whilst this can provide necessary context for students with less background knowledge, it risks increasing the amount of content all students might engage with. Some students may even feel obliged to engage with the supplementary material even if it’s not necessary for them. For these reasons, if supplementary materials are used, they should be minimal in covering the assumed knowledge for the course and clearly structured so students can identify which parts are relevant to them personally. Additionally, the nature of the materials as an optional resource to offer a recap of assumed knowledge should be made clear.
 
-## Pre-recorded videos
+### Pre-recorded videos
 
 Pre-recorded videos can be useful, and can replace or supplement lecture-based teaching. This is known as a ‘flipped classroom’. These videos can be a good way to explain complex concepts to the whole cohort, allowing students to study at their own pace when it's convenient for them. A short multiple-choice quiz after a video can be added in most VLEs and can reinforce the content of the video and help students determine whether or not they understand the concepts covered. 
 
@@ -90,11 +94,11 @@ Here are some tips for effective videos:
 
 Existing videos can be a good source of inspiration. There are many programming videos aimed at beginners on educational channels on YouTube. These are often high-quality videos with a high production value (polished, professional and well-made) which can be very engaging. However, not all videos need to have a production value to be useful. Videos with lower production value can be made very quickly to respond to issues raised by students during a module, or to clarify points that were unexpectedly difficult. 
 
-## Embedded executable code blocks
+### Embedded executable code blocks
 
 It's also possible to provide worksheets which have embedded executed code blocks. These come with the benefits of fewer installation requirements and quicker times to set up and get started, but also have some drawbacks. They can work well in combination with other methods so that students can test short bits of code without setting up elsewhere. 
 
-### Jupyter (and other) Notebooks
+#### Jupyter (and other) Notebooks
 
 [Jupyter Notebooks](https://jupyter.org/) can be a useful tool for learning programming, and it is possible to write a worksheet where the instructions are in a Markdown-formatted code block, followed by editable code blocks with over 40 languages supported.
 
@@ -108,7 +112,7 @@ One disadvantage of Jupyter notebooks is that they are based on interactive prog
 
 ![An example Jupyter notebook with a Python-generated scattergraph.](/chapters/images/C04_computer-says-no-jupyter-notebook.png){#fig-jupyter fig-alt="Screenshot showing a code cell in a Jupyter notebook containing code to produce a scatter plot, as well as the generated scatter plot below the code." width=70%}
 
-### Running code in the browser: WebR, Pyodide
+#### Running code in the browser: WebR, Pyodide
 
 WebR (for R programming) and Pyodide (for Python) allow for integration of interactive code blocks in HTML-based worksheets. If writing worksheets in Markdown using [Quarto](https://quarto.org/), the [`quarto-live`](https://r-wasm.github.io/quarto-live/) extension can be used to include these interactive code blocks.
 
@@ -120,7 +124,7 @@ Both of these work with a variety of common packages such as `ggplot` (R) and `m
 
 The disadvantage is that the code a student writes is not saved anywhere --- so this has to be made clear to them. It is only for temporary use. Additionally, as with the Jupyter notebooks, all variables are saved into a temporary memory so one code block may function differently depending on which blocks were run previously. 
 
-## GitHub and other software development platforms
+### GitHub and other software development platforms
 
 GitHub, and its competitors such as GitLab, Forgejo, etc., are websites that allow users to store code for a project in an online repository using the Git version control system. GitHub, in particular, is currently popular and widely used in software development and data science, and provides many useful tools that we can use to make life easier for our students.
 
@@ -130,7 +134,11 @@ Furthermore, when adopting server or Docker-based solutions in educational conte
 
 The built-in GitHub integration streamlines the teaching workflow, enabling instructors to update teaching materials in real time. As these updates are pushed to GitHub, they can be synchronised automatically with the student's learning platforms, ensuring all participants have immediate access to the latest resources. This synchronisation eliminates the common logistical hurdles associated with outdated teaching materials or inconsistencies in software versions across different student setups.
 
-## Cloud-based development environments
+## Computing Platform
+
+Once course materials have been created it needs to be decided how and where students will run code as they complete courses or projects. In this section, we discuss the cloud-based options and local options, including how to support each.
+
+### Cloud-based development environments
 
 While students can see the code held on GitHub and similar platforms, they cannot run it in the browser file viewers, which can be frustrating for a novice who just wants it to simply work. Traditional local setup frequently raises barriers, often involving intricate installation and configuration steps, which might deter beginners even before they engage with the actual coding exercises. Such steps can also lead to a proliferation of setup errors, turning what should be an exciting learning adventure into a tedious, error-prone process. This issue is particularly pronounced in online and hybrid learning environments. 
 
@@ -152,7 +160,7 @@ Lastly, concerns around data security persist; while cloud environments offer nu
 
 These considerations draw a complex picture of the trade-offs involved in using cloud-based platforms for educational purposes. While they significantly lower the threshold for beginners to engage in coding by removing many logistical hurdles, they introduce a different set of challenges that need careful navigation to ensure a secure, effective, and continuous learning experience.
 
-### Codespaces
+#### Codespaces
 
 One prominent example of a cloud-based platform is the Codespace feature offered by GitHub (owned by Microsoft), which integrates Microsoft’s Visual Studio Code IDE. Codespaces are a major example of a cloud-based development environment which we'll discuss in this section.
 
@@ -162,7 +170,7 @@ By default, a Codespace will open a Visual Studio Code interface in the browser.
 
 The Codespace is run within a Docker container, which is defined by the creator of the repository. This allows the educator to define the environment the learner is using, including installing programs in the container, installing packages and dependencies within a programming language environment, or installing Visual Studio Code extensions. This setup will be done automatically when the Codespace begins. This means the educator can make sure all tools are correctly and reliably installed across all learners' environments. The learner will still have to learn to navigate the interface, but there should be many fewer problems relating to setup compared to students locally configuring their own system.
 
-### Comparison of the main server or Docker-based options
+#### Comparison of the main server or Docker-based options
 
 Each cloud-based tool has its pros and cons and quirks. Below you can find a table that summarises them based on our experience.
 
@@ -175,7 +183,7 @@ Each cloud-based tool has its pros and cons and quirks. Below you can find a tab
 | My Binder      | Notebook-based | Turns a Git repo into a collection of interactive notebooks, free to use                                              | Instances are temporary and can take ages to spin (traffic-dependent and therefore unpredictable), and are mostly Python-oriented                                           |
 | Noteable       | Notebook-based | Designed specifically for educational purposes, integrates well with University/VLE login systems, good data security | pre-installed packages can create issues with additional packages needed, free only for a specific institution makes collaboration harder                                   |
 
-## Installation support for different OS/devices
+### Installation support for different OS/devices
 
 Sometimes it may not be possible or desirable to use a cloud-based service. Learners may not have a steady internet connection at home, or may want or need to work on public transport without an internet connection. Online tools often have a limited number of CPU-hours (or a similar restriction) that make them unsuitable for larger projects. Finally, teaching students to run code and tools locally is a valuable skill and one that an educator might want to cultivate.  For these reasons, instructors may want to support students running code and tools locally. However, learners may have different operating systems and setups, and this means supporting the installation of software across all machines can be a challenge.
 
@@ -183,7 +191,11 @@ To effectively engage students from the beginning, having additional support for
 
 The first workshop of a course could be dedicated to installing software, and making sure the students' computers are set up correctly and that they are comfortable with the tool. There may be device-specific issues, especially for devices other than Windows and Mac laptops such as Chromebooks or tablets. Additionally, students might miss the first week, or new problems may crop up as the course progresses, meaning ongoing support is vital. One-to-one support for individual students and Q&A hours can help make sure students remain supported in terms of their setup throughout the course. Sometimes, overcoming a technical obstacle can be too great a task to achieve in a session. In these cases, it is possible to suggest that students temporarily use alternative computational platforms (such as lab computers or online platforms) to avoid falling behind during the workshop, and the give extra help after the session to resolve their individual device-related issues.
 
-## Office hours and drop-in sessions
+## Supporting Students
+
+When completing a programme of study, students will often need support to overcome technical hurdles. In this section, we discuss how educators might provide this support.
+
+### Office hours and drop-in sessions
 
 Learning programming for the first time requires a lot of time and practice. For students to be successful, they will most likely need to practice in their independent study time. However, this will mean that they do not have anyone to ask if they get an error message they don't understand or if they need any guidance on how to progress. If a student cannot progress and has to wait for potentially a week or longer before their next taught session, this can stall progress and demotivate the student. 
 
@@ -193,7 +205,7 @@ Clear communication to students that this assistance is available and how to rea
 
 While being available for student support outside of their timetabled teaching can be valuable, it is also important as educators to establish boundaries for our own well-being --- for instance, only allowing student meetings to take place during your own working hours and blocking out time for breaks or to focus on other work. 
 
-## Teams channels (and other group chat services)
+### Teams channels (and other group chat services)
 
 Providing a managed online chat platform can be effective to allow students a space to discuss the material. The choice of chat service can be strictly limited by University policy and GDPR, despite there being a wide range of alternatives --- from commercial, closed-source, hosted versions like Microsoft Teams, Discord, Slack, WhatsApp and so on, through more open-source, locally-hostable services like Mattermost, Zulip, RocketChat, etc. However, it is common to only be allowed to create official chat channels on one of these options, usually Microsoft Teams.
 
@@ -201,7 +213,7 @@ Setting up Teams channels for a course can be effective to allow a space for stu
 
 Teams, and other equivalent services, provide useful integrations with many of the above services, and can be configured to at least coordinate updates to student material in a centralised way. 
 
-## AI assistance
+### AI assistance
 
 Generative AI tools are rapidly becoming a popular tool for learning to program, or to support learning programming. This has some advantages and disadvantages when it comes to learning programming, but it also has some applications when trying to remove barriers to getting started. Generative AIs have been trained on a wide range of material, including sources like Stack Overflow, where programmers have been asking questions relating to errors and problems with setups for a long time. This means, in theory, generative AI tools should be able to answer at least some questions relating to setup issues.
 
